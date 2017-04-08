@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      /*.color-red{color: red}
+      .color-blue{color: blue}*/
+      .is-loading{ background: red;}
+    </style>
+  </head>
+  <body>
+    <div id="myApp">
+      <!-- <h1 :class="className">Hello World</h1> -->
+      <button :class="{'is-loading': isLoading }" v-on:click="toggleClass">Toggle Me</button>
+    </div>
+
+    <script src="js/vue.js"></script>
+    <script src="js/AttBindingApp.js"></script>
+  </body>
+</html>

@@ -1,17 +1,15 @@
   var app = new Vue({
       el: '#root',
       data: {
-        newName: '',
-        names:['joe','Mary','Jane','Jack']
+        x: 20,
+        y: 40,
+        result: 0,
       },
 
       delimiters: ["((","))"],
 
       methods:{
-        addName(){
-          this.names.push(this.newName);
-          console.log(this.names);
-        }
+        this.result : this.x * this.y
       }
 
       // mounted(){

@@ -3,11 +3,11 @@ var app = new Vue({
 	data: {
        w: 200,
        h: 300,
-       
+
       },
 
-	
-	delimiters: ["((","))"],
+
+	delimiters: ["<%","%>"],
 
 
 });
